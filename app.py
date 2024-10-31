@@ -14,7 +14,7 @@ creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FI
 
 # Access the Google Sheets API
 service = build('sheets', 'v4', credentials=creds)
-spreadsheet_id = '16VHnRR2TCdsZbLHPv9C9uVayN9Sd5wBCSZHKWbeDJ80'
+spreadsheet_id = 'sheet_id'
 
 # Entry IDs for Google Form
 FORM_BASE_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfVhEi6WpK3lVU25_kxVWXA0339-LSk0Rn0jbmFvZX_Ovfr2g/viewform'
